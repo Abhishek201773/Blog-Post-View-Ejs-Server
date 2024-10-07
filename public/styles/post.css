@@ -1,0 +1,22 @@
+input{
+    padding: 8px 8px 8px 8px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.post{
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 40px;
+}
+.post button{
+    background-color:limegreen;
+    color: white;
+    font-size: 22px;
+    padding: 7px 17px 7px 17px;
+    margin-left: 47px;
+    cursor: pointer;
+}
+#Post{
+    height: 200px;
+    width: 490px;
+}

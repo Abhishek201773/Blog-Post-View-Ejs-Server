@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/view.css">
+    <title>View Page</title>
+</head>
+<body>
+    <div class="view">
+        <% if (posts.length > 0) { %>
+            <% posts.forEach(function(post) { %>
+                <h1><%= post.title %></h1>
+                <p><%= post.post %></p> 
+           <br>
+            <% }); %>
+        <% } else { %>
+            <p>No posts available.</p> <!-- Message if no posts -->
+        <% } %>
+    </div>
+</body>
+</html>
