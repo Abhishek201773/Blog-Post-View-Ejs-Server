@@ -1,2 +1,3 @@
 # Blog-Post-View-Ejs-Server
-Create a server for posting blog and view page for blog
+1. npm install all the module then
+2. nodemon app.js for running server
